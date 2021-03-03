@@ -16,10 +16,3 @@ module.exports = function dateSample(N) {
   return Math.ceil(Math.log(MODERN_ACTIVITY / (+N)) / (0.693 / HALF_LIFE_PERIOD))
 
 };
-
-// function dateSample(N) {
-//   let data = Math.trunc(Math.log(MODERN_ACTIVITY / (+N)) / (0.693 / HALF_LIFE_PERIOD))
-//   return data;
-// };
-
-// dateSample('11')
